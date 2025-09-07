@@ -8,7 +8,7 @@ The project integrates customer and transaction data, processes it in SQL, and v
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 1. [Project Objective](#project-objective)  
 2. [Data Sources](#data-sources)  
 3. [Database Setup](#database-setup)  
@@ -19,7 +19,7 @@ The project integrates customer and transaction data, processes it in SQL, and v
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 To develop a **comprehensive weekly financial dashboard** that:  
 - Tracks **revenue, transactions, and customer engagement**  
 - Highlights **trends across age, income, geography, and card type**  
@@ -28,7 +28,7 @@ To develop a **comprehensive weekly financial dashboard** that:
 
 ---
 
-## 📂 Data Sources
+##  Data Sources
 The project uses multiple datasets (CSV files):  
 - **`credit_card.csv`** – Credit card transaction and usage details  
 - **`cust_add.csv`** – Customer demographic & address information  
@@ -39,7 +39,7 @@ All data is imported into a MySQL database (`ccdb`).
 
 ---
 
-## 🗄 Database Setup
+##  Database Setup
 1. Create the database:
    ```sql
    CREATE DATABASE ccdb;
@@ -55,7 +55,7 @@ All data is imported into a MySQL database (`ccdb`).
 
 ---
 
-## 📊 Dashboard & Features
+##  Dashboard & Features
 The **Power BI Dashboard (`Credit Card Dashboard.pbix`)** provides:  
 - **Revenue Analysis** (Fees, Transactions, Interest)  
 - **Customer Segmentation** (Age, Income, Gender, Education, Marital Status)  
@@ -67,7 +67,7 @@ The **Power BI Dashboard (`Credit Card Dashboard.pbix`)** provides:
 
 ---
 
-## 🚀 Usage
+##  Usage
 - Update SQL paths to your CSV locations.  
 - Refresh Power BI to pull latest data.  
 - Use dashboard slicers to analyze **Revenue, Transactions, Customer Segments, Geography, and Card Types**.  
@@ -75,7 +75,7 @@ The **Power BI Dashboard (`Credit Card Dashboard.pbix`)** provides:
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 From **Week 53 (31st Dec)**:  
 - Revenue increased by **28.8% WoW**  
 - YTD Revenue: **$57M**  
@@ -89,7 +89,7 @@ From **Week 53 (31st Dec)**:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 - **SQL (MySQL 8.0+)**  
 - **Power BI Desktop**  
 - **DAX Calculations** (for grouping, KPIs, and WoW metrics)  
